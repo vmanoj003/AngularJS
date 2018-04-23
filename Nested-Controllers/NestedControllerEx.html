@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="NestModule">
+<head>
+    <h2>Examples Api</h2>
+    <script src="angular.js"></script>
+    <script src="NestController.js"></script>
+
+</head>
+<body>
+    <div ng-controller="NestCtrl1 as c1">
+        <p ng-bind="c1.testprop"></p>
+        <div ng-controller="NestCtrl2 as c2">
+            <p ng-bind="c1.testprop"></p>
+        
+        </div>
+    </div>
+     
+    
+</body>
+</html>

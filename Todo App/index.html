@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html ng-app="myModule">
+    <title>Todo App</title>
+    <h1>Todo App</h1>
+
+<head >
+    <script src = "angular.js"></script>
+    <script src = "TodoApi.js"></script>
+</head>
+
+<body>
+
+    <div ng-controller="TodoCtrl as c1">
+
+        <p>Add a Todo:</p>
+        <input type="text" ng-model="c1.inputTodo">
+        <button ng-click="c1.addTodo()">Add</button>
+
+        <div>
+            <p>Your Todos : </p>
+
+            <button ng-hide="c1.editMode" ng-click="c1.triggerEditMode()">Edit</button>
+            <button ng-show="c1.editMode" ng-click="c1.triggerEditMode()">Done</button>
+            <ol>
+
+                <li ng-repeat="i in c1.list track by $index">
+                    <span ng-hide="c1.editMode" ng-bind="i"></span>
+                    <input ng-model="i" ng-show="c1.editMode" type="text"></input>  
+                    <button ng-hide="c1.editMode" ng-click="c1.delete($index)">Delete</button>
+                </li>
+            </ol>
+
+        </div>
+         
+    </div>
+     
+    
+
+
+</body>
+</html>

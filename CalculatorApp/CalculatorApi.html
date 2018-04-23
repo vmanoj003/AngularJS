@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="CalModule">
+<head>
+    <h2>Examples Api</h2>
+    <script src="angular.js"></script>
+    <script src="CalApp.js"></script>
+
+</head>
+<body>
+    <div ng-controller="CalCtrl1 as c1">
+        <input type="text" ng-model="c1.ip1">
+        <span ng-bind="c1.selectedOperation"></span>
+        <input type="text" ng-model="c1.ip2">
+        <button ng-click="c1.computeResult()">=</button>
+        <span ng-bind="c1.resultValue"></span>
+        <p>
+        <p>Please Select the Operation :</p>
+        <button ng-click="c1.buttonClicked('+')">+</button>
+        <button ng-click="c1.buttonClicked('-')">-</button>
+        <button ng-click="c1.buttonClicked('*')">*</button>
+        <button ng-click="c1.buttonClicked('/')">/</button>       
+        </p>    
+         
+
+
+    </div>
+
+</body>
+</html>

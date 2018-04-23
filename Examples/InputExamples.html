@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="ExampleModule">
+<head>
+    <h2>Examples Api</h2>
+    <script src="angular.js"></script>
+    <script src="ExampleFunc.js"></script>
+
+</head>
+<body>
+    <div ng-controller="ExCtrl">
+        <p>Enter your Name : <input type="text" ng-change="onchange()" ng-model="yourName"></input></p>
+        <p>Check You Name : <input type="checkbox" ng-model="checkValue"></input></p>
+        <p>Date : <input type="date" ng-model="dateValue"></input></p>
+        <p>Radio : 
+            <input type="radio" ng-model="radioValue" value="opt1">Option 1</input>
+            <input type="radio" ng-model="radioValue" value="opt2">Option 2</input>
+            <input type="radio" ng-model="radioValue" value="opt3">Option 3</input>
+        </p>
+
+
+        <p>Name you Entered is: {{yourName}}</p>
+        <p>checked value  is: {{checkValue}}</p>
+        <p>checked value  is: {{dateValue}}</p>
+        <p>checked value  is: {{radioValue}}</p>
+
+
+
+     </div>
+    
+</body>
+</html>

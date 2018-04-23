@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html ng-app="myModule">
+<head >
+    <title>This is Contact App</title>
+   <! <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <!  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script src = "ContactApi.js"></script>
+    <script src = "AppConfig.service.js"></script>
+    <script src = "appFactory.service.js"></script>
+    <script src = "appName.service.js"></script>
+    <script src = "contact.controller.js"></script>
+    <script src = "contactdata.service.js"></script>
+
+
+</head>
+<body>
+        <h2>This is Contact App</h2>
+
+   
+    
+    <div class="container" ng-controller="ContactCtrl as c1">
+        <div class="row">
+            <ul class="list-group">
+
+                <li class="list-group-item" ng-repeat="contact in c1.contacts" ng-click="c1.selectContact($index)">
+                    <span>{{contact.name.first}}</span>
+                    <span>{{contact.name.last}}</span>
+                </li>
+            </ul>
+
+            <button ng-click="c1.addUser()">Add</button>
+        </div>
+
+
+
+        <div class = "row">
+            <div class="alert alert-success" ng-if="c1.successMessage">{{c1.successMessage}}</div>
+            <div class="alert alert-danger" ng-if="c1.errorMessage">{{c1.errorMessage}}</div>
+
+            <div class="media>
+                <div class="media-left">
+                    <a href="#">
+                        <img ng-src = "{{c1.selectedContact.picture.medium}}"></img>
+                    </a>
+                </div>
+                <div class="media-body">   
+                    <button ng-hide = "c1.editMode" ng-click="c1.toggleMode()">Edit</button>
+                    <button ng-show = "c1.editMode" ng-click="c1.saveUser()">save</button>
+                    <h4 class="media-heading">
+                        <p>
+                        <span>First Name</span>
+                        <span ng-hide="c1.editMode">{{c1.selectedContact.name.first}}</span>
+                        <input type="text" ng-show="c1.editMode" ng-model="c1.selectedContact.name.first">
+                        </p>
+                        <p>
+                        <span>Last Name</span>
+                        <span ng-hide="c1.editMode">{{c1.selectedContact.name.last}}</span>
+                        <input type="text" ng-show="c1.editMode" ng-model="c1.selectedContact.name.last">
+                        </p>
+
+                        
+                    </h4>
+                    
+
+                    <div>
+
+
+                        <p><h6>Location</h6></p>
+
+                        <p>
+                            <span>Street</span>
+                            <span ng-hide="c1.editMode">{{c1.selectedContact.location.street}}</span>
+                            <input type="text" ng-show="c1.editMode" ng-model="c1.selectedContact.location.street">
+                        </p>
+
+                        <p>
+                            <span>City</span>
+                            <span ng-hide="c1.editMode">{{c1.selectedContact.location.city}}</span>
+                            <input type="text" ng-show="c1.editMode" ng-model="c1.selectedContact.location.city">
+                        </p>
+
+                        <p>
+                            <span>phone</span>
+                            <span ng-hide="c1.editMode">{{c1.selectedContact.cell+ " "+ c1.selectedContact.cell}}</span>    
+                            <input type="text" ng-show="c1.editMode" ng-model="c1.selectedContact.cell">
+                        </p>
+
+
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+         
+    </div>
+
+</body>
+</html>

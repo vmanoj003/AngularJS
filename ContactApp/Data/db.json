@@ -1,0 +1,186 @@
+{
+  "contacts": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "aubin",
+        "last": "picard"
+      },
+      "location": {
+        "street": "9400 W pamer lns",
+        "city": "Austin Tx",
+        "state": "yonne",
+        "postcode": 66041
+      },
+      "email": "aubin.picard@example.com",
+      "login": {
+        "username": "bigostrich428",
+        "password": "lovely",
+        "salt": "g7ThthGz",
+        "md5": "b1b8b3622dd31afc34f571dfca2a8ef4",
+        "sha1": "90c35bed674c323955b0a1aa23e384c4c956dac6",
+        "sha256": "01c3d16e0f9ac7abd90c7f9e1fce249d2d2c1e02fd91117ea9b3a09052cc41ad"
+      },
+      "dob": "1970-07-03 05:15:12",
+      "registered": "2008-06-26 09:19:28",
+      "phone": "04-75-83-17-48",
+      "cell": "06-43-03-81-23",
+      "id": 1,
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/31.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/31.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/31.jpg"
+      },
+      "nat": "FR"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "mrs",
+        "first": "zeneida",
+        "last": "teixeira"
+      },
+      "location": {
+        "street": "3492 rua alagoas ",
+        "city": "parnaíba",
+        "state": "pará",
+        "postcode": 10427
+      },
+      "email": "zeneida.teixeira@example.com",
+      "login": {
+        "username": "whitemouse663",
+        "password": "arsenal1",
+        "salt": "dWVQsHtL",
+        "md5": "d731836aee6d71b31d94b675514bfb94",
+        "sha1": "95cd7e696d673db50428035d7ed67d66618dd4e0",
+        "sha256": "c73c1da1cc0c4dc7a121106b1efa26c77dfd1ba2d751fce0138bd8338562c41e"
+      },
+      "dob": "1948-06-11 21:16:16",
+      "registered": "2015-06-19 22:56:19",
+      "phone": "(13) 6287-8968",
+      "cell": "(13) 7609-8027",
+      "id": 2,
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/31.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/31.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/31.jpg"
+      },
+      "nat": "BR"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "madame",
+        "first": "eline",
+        "last": "philippe"
+      },
+      "location": {
+        "street": "6219 rue des abbesses",
+        "city": "bussigny",
+        "state": "uri",
+        "postcode": 4601
+      },
+      "email": "eline.philippe@example.com",
+      "login": {
+        "username": "whitetiger419",
+        "password": "single",
+        "salt": "4tkQdj2f",
+        "md5": "997e640491403ce5e7b36a8a1442f67c",
+        "sha1": "c4e41d82dff172057eee8a38f67a54cd4298102a",
+        "sha256": "123ae3ac79fcbaf0cd87a282cf9c7dc3f13490215013547e68efad32c351f41c"
+      },
+      "dob": "1974-02-09 04:05:25",
+      "registered": "2011-03-29 19:49:06",
+      "phone": "(324)-442-1763",
+      "cell": "(060)-601-0780",
+      "id": 3,
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/16.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/16.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/16.jpg"
+      },
+      "nat": "CH"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "hélmut",
+        "last": "da cruz"
+      },
+      "location": {
+        "street": "7634 rua treze ",
+        "city": "Kansas,MO",
+        "state": "mato grosso do sul",
+        "postcode": 79189
+      },
+      "email": "hélmut.dacruz@example.com",
+      "login": {
+        "username": "blackmeercat339",
+        "password": "9876",
+        "salt": "nktrLfbf",
+        "md5": "f85294accee27de9f0abf9af74973082",
+        "sha1": "554ed410c721892dbf3d69d2431e4fa9a8c8eb48",
+        "sha256": "839b03d33c4b3806cc25fda20d1976521a071bc02a7db26ee029b479297ea9a8"
+      },
+      "dob": "1958-08-25 15:03:35",
+      "registered": "2009-02-03 01:11:00",
+      "phone": "(69) 2840-4738",
+      "cell": "(98) 7985-1047",
+      "id": 4,
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/6.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/6.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/6.jpg"
+      },
+      "nat": "BR"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "leo",
+        "last": "caldwell"
+      },
+      "location": {
+        "street": "8977 photinia ave",
+        "city": "Keller",
+        "state": "alabama",
+        "postcode": 90059
+      },
+      "email": "leo.caldwell@example.com",
+      "login": {
+        "username": "tinyleopard958",
+        "password": "desiree",
+        "salt": "xPT1M7Ic",
+        "md5": "1708273acfc9456d14c6b46a3a5d0c77",
+        "sha1": "2d7eba6e4580c9d119bbd913aaa52e5a5561befe",
+        "sha256": "75ba620bb2e8df5bf1ae6a852253b576456c727a92d65b03830c3c2e03488632"
+      },
+      "dob": "1973-03-09 18:10:53",
+      "registered": "2004-04-23 17:22:35",
+      "phone": "(267)-319-0903",
+      "cell": "(949)-857-5276",
+      "id": 5,
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/68.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/68.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/68.jpg"
+      },
+      "nat": "US"
+    },
+    {
+      "id": "Fri Apr 20 2018",
+      "name": {
+        "first": "Manojkumar",
+        "last": "Velama"
+      },
+      "location": {
+        "street": "9828 Nolina Rd",
+        "city": "Fortworth"
+      },
+      "cell": "917-512-3585"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="myModule">
+<head>
+    <h2>Cloak Api</h2>
+    <script src="angular.js"></script>
+    <script src="DateApiFunc.js"></script>
+
+</head>
+<body>
+    <div ng-controller="MyCtrl">
+        Enter your Name : <input ng-model="userName" , type="text"></input>
+        <p>The Current Date Time is:{{datetime}}</p>
+        <p>Name you Entered is: {{userName}}</p>
+        <button ng-click="UpdateTime()">UpdateTime</button>
+     </div>
+    
+</body>
+</html>

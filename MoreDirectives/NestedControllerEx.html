@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="NestModule">
+<head>
+    <h2>Examples Api</h2>
+    <script src="angular.js"></script>
+    <script src="NestController.js"></script>
+    <script src="ImportableModule.js"></script>
+
+
+</head>
+<body>
+    <div ng-controller="NestCtrl1 as c1">
+        <div ng-repeat="obj in c1.list">
+        
+          <p> Name: <p>{{obj.name}}</p></p>
+           Age: <p>{{obj.age}}</p>
+           First : <p>{{$first}}</p>
+           Last : <p>{{$last}}</p>
+           Middle : <p>{{$middle}}</p>
+           Even : <p>{{$even}}</p>
+           Odd : <p>{{$odd}}</p>
+            <hr/>
+
+        </div>
+        
+    </div>
+     
+    
+</body>
+</html>
